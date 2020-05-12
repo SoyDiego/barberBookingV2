@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#barberBookingV2
+
+The original project is [barberBooking](https://github.com/SoyDiego/barberBooking) and this is an implementation using React JS.
 
 ## Available Scripts
 
