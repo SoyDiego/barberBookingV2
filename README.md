@@ -1,4 +1,4 @@
-#barberBookingV2
+# barberBookingV2
 
 The original project is [barberBooking](https://github.com/SoyDiego/barberBooking) and this is an implementation using React JS.
 
