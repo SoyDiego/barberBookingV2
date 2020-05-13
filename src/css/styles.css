@@ -18,7 +18,7 @@ body {
 body {
 	font-family: "Lato", sans-serif;
 	color: var(--white);
-	background: url(../img/background.jpg);
+	background: url(/img/background.jpg);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
