@@ -1,6 +1,10 @@
 # barberBookingV2
 
-The original project is [barberBooking](https://github.com/SoyDiego/barberBooking) and this is an implementation using React JS.
+The original project is [barberBooking](https://github.com/SoyDiego/barberBooking) and this is an implementation using **React JS**.
+
+## DEMO
+
+You can test [here](https://codesandbox.io/s/barberbookingv2-ene3r):
 
 ## Available Scripts
 
