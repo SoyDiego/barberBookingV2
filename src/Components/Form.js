@@ -8,7 +8,7 @@ const Form = () => {
 
 	const onSubmit = (data, e) => {
 		window.open(
-			generateURL(PHONE, data.name, data.barberSelected, formatDate(data.date))
+			generateURL(PHONE, data.name, data.barber, formatDate(data.date))
 		);
 		e.target.reset();
 	};
@@ -17,12 +17,12 @@ const Form = () => {
 		return date.split("-").reverse().join("/");
 	};
 
-	const generateURL = (PHONE, name, barberSelected, date) => {
+	const generateURL = (PHONE, name, barber, date) => {
 		return `https://wa.me/${PHONE}?text=
 							----------%0A*NAME*%0A----------%0A
 							${name}%0A
 							----------%0A*BARBER*%0A----------%0A
-							${barberSelected}%0A
+							${barber}%0A
 							----------%0A*DATE*%0A----------%0A
 							${date}`;
 	};
